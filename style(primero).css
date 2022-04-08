@@ -1,0 +1,92 @@
+.orange> .orange{
+    background-color: orange;
+    width: 100vw;
+    height: 50px; 
+    border: 1px solid black;
+    display: table-cell;     
+}
+
+
+.yellow > .yellow{
+    background-color: yellow;
+    width: 100vw;
+    height: 300px;
+    
+}
+
+
+.blue > .blue{  
+    background-color: blue;
+    width: 100vw;
+    height: 180px;
+    border: 1px solid black;
+    display: table-cell; 
+}
+
+
+.grey > .grey{ 
+    background-color: grey;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    border: 1px solid black;
+    display: table-cell; 
+}
+
+
+   /* Mobile screen*/
+@media screen and (max-width: 320px) {
+    /*BOX ORANGE*/
+    .orange{   
+    width: 100vw; 
+    display:inline-block    
+    }
+    /*BOX YELLOw*/
+    .yellow{
+    height: 150px;
+    }
+
+    /*BOX BLUE*/
+    .blue{
+        width: 100vw;
+        height: 100px;
+    }
+    body {
+    background-color: pink;  
+}
+}
+
+/* Tablet screen */
+@media only screen and (min-width: 321px) and (max-width: 1023px) {
+    /*BOX ORANGE*/
+    .orange{   
+    width: 100vw; 
+    display:inline-block    
+}
+    /*BOX YELLOW*/
+    .yellow{
+        height: 300px;
+    }
+
+    /*BOX BLUE*/
+    .blue{
+       float: left;
+       width: 100vw;
+       height: 30px;
+    }
+
+    /*GREY*/
+    .grey{
+   float:left; 
+    }
+
+    body {
+    background-color: green;
+    }
+}
+
+/* Desktop*/
+@media screen and (min-width: 1024px) {
+   
+}
+º
